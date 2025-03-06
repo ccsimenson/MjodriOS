@@ -1,6 +1,32 @@
 # Mjöðr - Viking Mead Calculator
 
-A beautiful iOS app for calculating, tracking, and crafting mead in the Viking tradition.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+A beautiful iOS app for calculating, tracking, and crafting mead in the Viking tradition. Featuring a stunning Norse-inspired design with authentic Viking aesthetics.
+
+## 🎨 Viking Theme
+
+Mjöðr is crafted with an authentic Viking aesthetic:
+
+- **Color Palette**
+  - Dark Wood Brown (`#2C1810`) - Primary background
+  - Light Wood Brown (`#B08968`) - Interactive elements
+  - Soft Gold (`#DAA520`) - Accents and highlights
+  - Deep Red (`#8B0000`) - Active states and emphasis
+  - Parchment (`#F5E6D3`) - Text on dark backgrounds
+
+- **Design Elements**
+  - Norse-inspired typography with Papyrus font
+  - Raised relief buttons with 10px padding
+  - Traditional Viking patterns and decorations
+  - Custom app icon featuring a drinking horn
+
+- **Norse Naming**
+  - "Sacred Measurements" - ABV Calculator
+  - "Wisdom of Odin" - Recipe Database
+  - "Ancient Recipes" - Brewing Guide
+  - "Mead Hall" - Batch Tracking
+  - "Runes of Knowledge" - Help Section
 
 ## TestFlight Preparation Guide
 
@@ -130,3 +156,30 @@ For TestFlight support, contact: [Your Email]
 - iOS 15.0+
 - iPhone and iPad support
 - Internet connection for recipe search
+
+## Installation
+
+### From Source
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ccsimenson/MjodriOS.git
+   ```
+2. Open the project in Xcode
+3. Configure signing with your Apple Developer account
+4. Build and run on your device
+
+### TestFlight (Coming Soon)
+1. Request access to the TestFlight beta
+2. Install TestFlight on your iOS device
+3. Accept the invitation and install Mjöðr
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- Inspired by traditional Viking mead-making techniques
+- Built with SwiftUI and modern iOS technologies
+- Icon designed with authentic Norse aesthetics
