@@ -1,0 +1,33 @@
+# Xcode
+.DS_Store
+xcuserdata/
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+.build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+MjodrApp_Verify/
+MjodrApp.zip
