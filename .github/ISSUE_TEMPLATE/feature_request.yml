@@ -1,0 +1,76 @@
+name: 💡 Feature Request
+description: Suggest an idea for Mjöðr
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the mead hall! Share your vision for enhancing Mjöðr's brewing capabilities.
+        
+        Before suggesting a feature, please check if it has already been suggested in our existing issues.
+
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: Feature Category
+      description: What area of the app would this feature enhance?
+      options:
+        - ABV Calculations
+        - Recipe Management
+        - Batch Tracking
+        - User Interface
+        - Viking Theme
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Related Problem
+      description: Is your feature request related to a problem? Please describe.
+      placeholder: "I'm always frustrated when [...]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like to see
+      placeholder: "It would be great if [...]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative solutions or features you've considered
+      placeholder: "Another approach could be [...]"
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or mockups about the feature request here
+
+  - type: textarea
+    id: viking-theme
+    attributes:
+      label: Viking Theme Integration
+      description: How would this feature maintain or enhance our Norse aesthetic?
+      placeholder: "This feature would align with the Viking theme by [...]"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this feature request, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow Mjöðr's Code of Conduct
+          required: true
